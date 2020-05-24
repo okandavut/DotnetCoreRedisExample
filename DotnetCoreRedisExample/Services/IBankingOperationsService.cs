@@ -8,6 +8,6 @@ namespace DotnetCoreRedisExample.Services
 {
     public interface IBankingOperationsService
     {
-        List<AccountItem> GetBranhUserBankAccounts(string branchId);
+        List<AccountItem> GetBranchUserBankAccounts(string branchId);
     }
 }

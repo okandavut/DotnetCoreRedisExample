@@ -38,7 +38,7 @@ namespace DotnetCoreRedisExample.Controllers
             }
             else
             {
-                branchUserAccounts = await Task.Run(() => _bankingOperationsService.GetBranhUserBankAccounts(branchId));
+                branchUserAccounts = await Task.Run(() => _bankingOperationsService.GetBranchUserBankAccounts(branchId));
                 cacheJsonItem = JsonConvert.SerializeObject(branchUserAccounts);
                 userAccountsFromCache = Encoding.UTF8.GetBytes(cacheJsonItem);
                 var options = new DistributedCacheEntryOptions()
