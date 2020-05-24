@@ -1,14 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using DocumentFormat.OpenXml.Bibliography;
 using DotnetCoreRedisExample.Models;
 using DotnetCoreRedisExample.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Caching.Distributed;
-using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
 
 namespace DotnetCoreRedisExample.Controllers
